@@ -8,18 +8,32 @@
     width: 100%;
     height: auto;
     padding:10px 0;
-    background-image: url(../images/back.jpg);
+    /* background-image: url(../images/back.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-
+    background-repeat: no-repeat; */
+    /* background-image: url("../images/cool.jpg");
+    background-size: contain;
+    background-repeat: repeat-y; */
+    /* background: linear-gradient(to right, #D94032, #D9AB82, #E880AC, #7CE8D5, #CEFF88); */
+    /* background-color: #333;FA596D 87C1C2; */
+    background: linear-gradient(to right, #f43b47, #453a94);
+    /* #a6c0fe→#f68084
+    #f43b47 →#453a94 */
 }
+
 .navbar{
-    background-color: transparent;
+    background-color: #fffa;
     position: absolute;
     z-index: 999;
     transition:background 0.6s linear;
+    /* color:red; */
 }
-.navbar ul li{
+
+.nav-content .tabs .indicator{
+  background-color:purple;
+}
+
+/* .navbar ul li{
     color:red;
     padding:0 4px;
     margin: 0 6px;
@@ -30,7 +44,7 @@
 .navbar ul li:hover{
     cursor: pointer;
     background: grey;
-}
+} */
 .drop{
     transform-origin: top left;
     transform:scale(0,0);
@@ -54,16 +68,17 @@
 }
 .institute:hover .drop{
          transform: scale(1,1);
-     }
+}
 
 .parallax-container .parallax{
     z-index:-2;
 }
 .slant{
     position: relative;
-    background-image: url("../images/cool.jpg");
+    /* background-image: url("../images/cool.jpg");
     background-size: contain;
-    background-repeat: repeat-y;
+    background-repeat: repeat-y; */
+    background: linear-gradient(to right, #f43b47, #453a94);
     width: 100%;
     height: auto;
 }
@@ -72,9 +87,10 @@
     width:100%;
     height:100%;
     content: '';
-    background-image: url("../images/cool.jpg");
+    /* background-image: url("../images/cool.jpg");
     background-size: contain;
-    background-repeat: repeat-y;
+    background-repeat: repeat-y; */
+    background: linear-gradient(to right, #f43b47, #453a94);
     top: 0;
     left: 0;
     bottom: 0;
@@ -89,9 +105,10 @@
     width:100%;
     height:105px;
     content: '';
-    background-image: url("../images/cool.jpg");
+    /* background-image: url("../images/cool.jpg");
     background-size: contain;
-    background-repeat: repeat-y;
+    background-repeat: repeat-y; */
+    background: linear-gradient(to right, #f43b47, #453a94);
     transform-origin: bottom right;
     transform: skewY(-4deg);
     bottom:0;
@@ -118,6 +135,7 @@
 
 footer
 {
-    background-image: url('../images/cool.jpg');
-    background-size: contain;
+    /* background-image: url('../images/cool.jpg');
+    background-size: contain; */
+    background: linear-gradient(to right, #f43b47, #453a94);
 }

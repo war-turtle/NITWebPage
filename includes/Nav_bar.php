@@ -3,7 +3,7 @@
 include 'Db_conn.php';
 if(!$conn)
     die(mysqli_connect_error());
-$sql="SELECT box_index,box_name,box_image FROM nav_boxes";
+$sql="SELECT box_index,box_name FROM nav_boxes";
 $result=mysqli_query($conn,$sql);
 $rows['heading']=array();
 $rows['sub_menu']=array();
