@@ -1,9 +1,6 @@
 $(document).ready(function(){
   $('.parallax').parallax();
-  // $('.button-collapse').sideNav();
   $('.slider').slider();
-
-  // $('.sidenav').sidenav();
 
   $('.tabs').tabs();
 
@@ -12,8 +9,22 @@ $(document).ready(function(){
   $('.tab a').click(function(){
     $('.sidenav').sidenav('close');
   });
+
 });
 
+// rendering google maps
+
+function initMap() {
+  var uluru = {lat: 29.948, lng: 76.817};
+  var map = new google.maps.Map(document.querySelector('#map'), {
+    zoom: 15,
+    center: uluru
+  });
+  var marker = new google.maps.Marker({
+    position: uluru,
+    map: map
+  });
+}
 
 //            own javascript
 

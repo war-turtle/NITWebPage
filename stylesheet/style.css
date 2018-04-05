@@ -139,3 +139,23 @@ footer
     background-size: contain; */
     background: linear-gradient(to right, #f43b47, #453a94);
 }
+
+#map{
+  height:200px;
+}
+
+.footer-column{
+  display:flex;
+  height: 200px;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-icons{
+  margin-top: 10px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+  /* font-size: 30px; */
+}
