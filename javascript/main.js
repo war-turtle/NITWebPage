@@ -6,7 +6,7 @@ $(document).ready(function(){
 
   $('.sidenav').sidenav();
 
-  $('.tab a').click(function(){
+  $('.sidenav-trigger').click(function(){
     $('.sidenav').sidenav('close');
   });
 

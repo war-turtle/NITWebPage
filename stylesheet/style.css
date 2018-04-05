@@ -159,3 +159,8 @@ footer
   align-items: center;
   /* font-size: 30px; */
 }
+
+@media only screen and (min-width: 993px)
+nav a.sidenav-trigger {
+    display:inline
+}
