@@ -1,0 +1,298 @@
+html {
+  font-size: 62.5%; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-weight: 100; }
+
+.nit-logo-small {
+  width: 15rem; }
+
+.clip_back {
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#f02828), to(#960424));
+  background-image: -webkit-linear-gradient(left top, #f02828, #960424);
+  background-image: -o-linear-gradient(left top, #f02828, #960424);
+  background-image: linear-gradient(to right bottom, #f02828, #960424);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 95%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 95%); }
+  .clip_back .slide-info {
+    position: relative;
+    top: -9rem;
+    background-color: transparent !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    font-size: 3rem;
+    margin-bottom: 1rem !important; }
+  .clip_back .slide-more {
+    font-size: 3rem; }
+    .clip_back .slide-more i {
+      font-size: 5rem; }
+
+.pad {
+  padding: 0 !important; }
+
+.par {
+  z-index: -5;
+  position: relative;
+  top: -25rem; }
+  .par .parallax-container {
+    height: 100vh; }
+    .par .parallax-container img {
+      height: 150%; }
+
+.events {
+  margin-top: -40rem;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#f02828), to(#960424));
+  background-image: -webkit-linear-gradient(left top, #f02828, #960424);
+  background-image: -o-linear-gradient(left top, #f02828, #960424);
+  background-image: linear-gradient(to right bottom, #f02828, #960424);
+  padding: 30rem 0 30rem 0 !important;
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 85%, 0 95%);
+  clip-path: polygon(0 10%, 100% 0, 100% 85%, 0 95%); }
+  .events .info-panel-top {
+    position: relative;
+    top: -3rem;
+    font-size: 5rem; }
+    .events .info-panel-top h1 {
+      margin: 0px;
+      font-weight: 200;
+      letter-spacing: .5rem; }
+  .events .info-panel-bottom {
+    position: relative;
+    top: 1.5rem;
+    margin-bottom: 1rem; }
+    .events .info-panel-bottom h1 {
+      margin: 0px;
+      font-weight: 200;
+      letter-spacing: .5rem; }
+  .events_col {
+    padding: 2rem !important; }
+  .events_tile {
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    -webkit-box-shadow: 0px 1.5rem 2rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1.5rem 2rem rgba(0, 0, 0, 0.15);
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .events_tile img {
+      height: 35rem; }
+    .events_tile .date {
+      font-size: 2rem;
+      font-weight: 400;
+      top: 85%;
+      width: 10rem;
+      height: 10rem; }
+    .events_tile .more {
+      font-size: 2rem;
+      color: orangered; }
+    .events_tile:hover {
+      -webkit-box-shadow: 0px 3rem 4rem rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 3rem 4rem rgba(0, 0, 0, 0.3);
+      background-color: white;
+      -webkit-transform: translateY(-1rem);
+      -ms-transform: translateY(-1rem);
+      transform: translateY(-1rem); }
+
+.notifications {
+  position: relative; }
+  .notifications .main-head {
+    font-size: 5rem;
+    font-weight: 200;
+    letter-spacing: .8rem;
+    padding: .5rem;
+    position: absolute;
+    display: inline-block;
+    border: 1rem double rgba(0, 0, 0, 0.2);
+    top: -10rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  .notifications .row {
+    height: 100%; }
+  .notifications_student {
+    padding: 2rem !important; }
+  .notifications_tenders {
+    padding: 2rem !important; }
+  .notifications .card {
+    padding-top: 1rem !important;
+    margin-bottom: 0px;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#f02828), to(#960424));
+    background-image: -webkit-linear-gradient(left top, #f02828, #960424);
+    background-image: -o-linear-gradient(left top, #f02828, #960424);
+    background-image: linear-gradient(to right bottom, #f02828, #960424); }
+    .notifications .card h1 {
+      font-size: 3rem;
+      font-weight: 200;
+      letter-spacing: .5rem;
+      color: white;
+      text-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.8); }
+  .notifications .notif {
+    height: 100% !important; }
+
+.clubs {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#f02828), to(#960424));
+  background-image: -webkit-linear-gradient(left top, #f02828, #960424);
+  background-image: -o-linear-gradient(left top, #f02828, #960424);
+  background-image: linear-gradient(to right bottom, #f02828, #960424);
+  padding: 30rem 0 30rem 0 !important;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  margin-top: 10rem; }
+  .clubs .club-banner {
+    position: absolute;
+    left: 2rem;
+    top: 10%;
+    width: 38%;
+    color: white; }
+    .clubs .club-banner h1 {
+      font-size: 5rem;
+      font-weight: 200;
+      letter-spacing: .5rem;
+      text-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.8); }
+    .clubs .club-banner p {
+      font-size: 2.5rem; }
+  .clubs ul.club_contain {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 100%; }
+    .clubs ul.club_contain li {
+      list-style-type: none;
+      height: auto;
+      width: 30rem;
+      position: absolute;
+      -webkit-box-shadow: 0px 1rem 1.5rem rgba(0, 0, 0, 0.55);
+      box-shadow: 0px 1rem 1.5rem rgba(0, 0, 0, 0.55);
+      background-color: white;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      .clubs ul.club_contain li span.title {
+        position: absolute;
+        right: 3px;
+        top: 80%;
+        color: white;
+        font-weight: 700;
+        font-size: 2.5rem;
+        text-shadow: 0px 0.5rem 1.5rem rgba(0, 0, 0, 0.7); }
+      .clubs ul.club_contain li:nth-child(1) {
+        -webkit-transform: rotate(15deg) skew(-30deg) translate(4.5rem, 4.5rem);
+        -ms-transform: rotate(15deg) skew(-30deg) translate(4.5rem, 4.5rem);
+        transform: rotate(15deg) skew(-30deg) translate(4.5rem, 4.5rem); }
+      .clubs ul.club_contain li:nth-child(2) {
+        -webkit-transform: rotate(15deg) skew(-30deg) translate(3rem, 3rem);
+        -ms-transform: rotate(15deg) skew(-30deg) translate(3rem, 3rem);
+        transform: rotate(15deg) skew(-30deg) translate(3rem, 3rem); }
+      .clubs ul.club_contain li:nth-child(3) {
+        -webkit-transform: rotate(15deg) skew(-30deg) translate(1.5rem, 1.5rem);
+        -ms-transform: rotate(15deg) skew(-30deg) translate(1.5rem, 1.5rem);
+        transform: rotate(15deg) skew(-30deg) translate(1.5rem, 1.5rem); }
+      .clubs ul.club_contain li:nth-child(4) {
+        -webkit-transform: rotate(15deg) skew(-30deg) translate(0rem, 0rem);
+        -ms-transform: rotate(15deg) skew(-30deg) translate(0rem, 0rem);
+        transform: rotate(15deg) skew(-30deg) translate(0rem, 0rem); }
+      .clubs ul.club_contain li:nth-child(5) {
+        -webkit-transform: rotate(15deg) skew(-30deg) translate(-1.5rem, -1.5rem);
+        -ms-transform: rotate(15deg) skew(-30deg) translate(-1.5rem, -1.5rem);
+        transform: rotate(15deg) skew(-30deg) translate(-1.5rem, -1.5rem); }
+    .clubs ul.club_contain:hover li:nth-child(1) {
+      -webkit-transform: rotate(5deg) skew(0deg) translate(65%, 10px);
+      -ms-transform: rotate(5deg) skew(0deg) translate(65%, 10px);
+      transform: rotate(5deg) skew(0deg) translate(65%, 10px); }
+    .clubs ul.club_contain:hover li:nth-child(2) {
+      -webkit-transform: rotate(3deg) skew(0deg) translate(0%, 0px);
+      -ms-transform: rotate(3deg) skew(0deg) translate(0%, 0px);
+      transform: rotate(3deg) skew(0deg) translate(0%, 0px); }
+    .clubs ul.club_contain:hover li:nth-child(3) {
+      -webkit-transform: rotate(0deg) skew(0deg) translate(-55%, 0px);
+      -ms-transform: rotate(0deg) skew(0deg) translate(-55%, 0px);
+      transform: rotate(0deg) skew(0deg) translate(-55%, 0px); }
+    .clubs ul.club_contain:hover li:nth-child(4) {
+      -webkit-transform: rotate(-3deg) skew(0deg) translate(-110%, 0px);
+      -ms-transform: rotate(-3deg) skew(0deg) translate(-110%, 0px);
+      transform: rotate(-3deg) skew(0deg) translate(-110%, 0px); }
+    .clubs ul.club_contain:hover li:nth-child(5) {
+      -webkit-transform: rotate(-5deg) skew(0deg) translate(-165%, 0px);
+      -ms-transform: rotate(-5deg) skew(0deg) translate(-165%, 0px);
+      transform: rotate(-5deg) skew(0deg) translate(-165%, 0px); }
+
+.gallery {
+  cursor: pointer !important; }
+  .gallery .row {
+    margin-top: -10rem;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.4))), url(../images/bookback.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../images/bookback.jpg);
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../images/bookback.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../images/bookback.jpg); }
+  .gallery_view {
+    padding: 5rem 0;
+    height: 40rem; }
+    .gallery_view a.gallery_close {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      font-size: 2rem;
+      background-color: #f02828;
+      letter-spacing: 3px;
+      outline-offset: 2rem;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+      height: auto; }
+      .gallery_view a.gallery_close:hover {
+        outline: 2rem solid white; }
+    .gallery_view .carousel {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+
+/*@media screen and (max-width:770px)
+{
+    html{
+        font-size:45%;
+    }
+    .events{
+        margin-top:
+    }
+}*/
+@media screen and (max-width: 770px) {
+  html {
+    font-size: 40%; }
+  .events {
+    margin-top: -65vh; }
+    .events .card-title {
+      font-size: 2.5rem; }
+  .notifications_student .card {
+    height: 50vh; }
+  .notifications_tenders .card {
+    height: 47.2vh; }
+  .notifications .tabs-content {
+    height: 240px !important; }
+  .clubs {
+    height: 80vh; }
+    .clubs ul.club_contain {
+      left: 47%; }
+      .clubs ul.club_contain li {
+        width: 20rem; }
+      .clubs ul.club_contain span {
+        font-size: 2rem; }
+    .clubs .club-banner {
+      margin-top: 5rem;
+      width: 80%;
+      top: 50%; } }
