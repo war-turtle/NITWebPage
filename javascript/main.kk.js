@@ -2,12 +2,16 @@ $(document).ready(function(){
   $('.parallax').parallax();
   $('.slider').slider();
 
-  $('.tabs').tabs();
+  // $('.tabs').tabs();
 
   $('.sidenav').sidenav();
+  $('.collapsible').collapsible();
 
-  $('.tab a').click(function(){
-    $('.sidenav').sidenav('close');
+  $('.dropdown-trigger').dropdown({
+    alignment: 'left',
+    constrainWidth: false,
+    coverTrigger: false,
+    hover: false
   });
 
 });
