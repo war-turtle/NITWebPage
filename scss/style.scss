@@ -23,6 +23,7 @@ html{
         box-shadow:none!important;
         font-size:3rem;
         margin-bottom:1rem!important;
+        z-index:-1;
         
     }
     .slide-more{
@@ -251,7 +252,7 @@ html{
 }
 .gallery{
     .row{
-        margin-top:-10rem;
+        margin-top:-15rem;
         background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.4)), url(../images/bookback.jpg) ;
         
     }
@@ -300,6 +301,9 @@ html{
         .card-title{
             font-size:2.5rem;
         }
+        .card-content{
+            padding:1rem;
+        }
     }
     .notifications{
        
@@ -313,15 +317,17 @@ html{
                 height:47.2vh;
             }
         }
+        
         .tabs-content{
-            height:240px!important;
+            height:65%!important;
         }
         
     }
     .clubs{
-        height:80vh;
+        height:90vh;
         ul.club_contain{
             left:47%;
+            top:60%;
             li{
                 width:20rem;
             }
@@ -332,7 +338,60 @@ html{
         .club-banner{
             margin-top:5rem;
             width:80%;
-            top:50%;
+            top:40%;
+        }
+    }
+
+}
+@media screen and (max-width:350px){
+    html{
+        font-size:30%;
+    }
+    .events{
+        margin-top:-65vh;
+        .card-title{
+            font-size:2rem;
+        }
+        .card-content{
+            padding:1rem;
+        }
+    }
+    .notifications{
+       
+        &_student{
+            .card{
+                height:50vh;
+            }
+        }
+        &_tenders{
+            .card{
+                height:47.2vh;
+            }
+        }
+        .tabs .tab a{
+            font-size:2rem;
+        }
+        .tabs-content{
+            height:65%!important;
+        }
+        
+    }
+    .clubs{
+        height:90vh;
+        ul.club_contain{
+            left:50%;
+            top:60%;
+            li{
+                width:16rem;
+            }
+            span{
+                font-size:1.5rem;
+            }
+        }
+        .club-banner{
+            margin-top:5rem;
+            width:70%;
+            top:40%;
         }
     }
 

@@ -26,7 +26,8 @@ html {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     font-size: 3rem;
-    margin-bottom: 1rem !important; }
+    margin-bottom: 1rem !important;
+    z-index: -1; }
   .clip_back .slide-more {
     font-size: 3rem; }
     .clip_back .slide-more i {
@@ -229,7 +230,7 @@ html {
 .gallery {
   cursor: pointer !important; }
   .gallery .row {
-    margin-top: -10rem;
+    margin-top: -15rem;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.4))), url(../images/bookback.jpg);
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../images/bookback.jpg);
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../images/bookback.jpg);
@@ -278,16 +279,19 @@ html {
     margin-top: -65vh; }
     .events .card-title {
       font-size: 2.5rem; }
+    .events .card-content {
+      padding: 1rem; }
   .notifications_student .card {
     height: 50vh; }
   .notifications_tenders .card {
     height: 47.2vh; }
   .notifications .tabs-content {
-    height: 240px !important; }
+    height: 65% !important; }
   .clubs {
-    height: 80vh; }
+    height: 90vh; }
     .clubs ul.club_contain {
-      left: 47%; }
+      left: 47%;
+      top: 60%; }
       .clubs ul.club_contain li {
         width: 20rem; }
       .clubs ul.club_contain span {
@@ -295,4 +299,35 @@ html {
     .clubs .club-banner {
       margin-top: 5rem;
       width: 80%;
-      top: 50%; } }
+      top: 40%; } }
+
+@media screen and (max-width: 350px) {
+  html {
+    font-size: 30%; }
+  .events {
+    margin-top: -65vh; }
+    .events .card-title {
+      font-size: 2rem; }
+    .events .card-content {
+      padding: 1rem; }
+  .notifications_student .card {
+    height: 50vh; }
+  .notifications_tenders .card {
+    height: 47.2vh; }
+  .notifications .tabs .tab a {
+    font-size: 2rem; }
+  .notifications .tabs-content {
+    height: 65% !important; }
+  .clubs {
+    height: 90vh; }
+    .clubs ul.club_contain {
+      left: 50%;
+      top: 60%; }
+      .clubs ul.club_contain li {
+        width: 16rem; }
+      .clubs ul.club_contain span {
+        font-size: 1.5rem; }
+    .clubs .club-banner {
+      margin-top: 5rem;
+      width: 70%;
+      top: 40%; } }
