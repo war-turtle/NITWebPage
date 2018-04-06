@@ -9,256 +9,440 @@
         <title>NIT KKR || HOME</title>
         <!--linking materialize file-->
         <link rel="stylesheet" href="./stylesheet/materialize.css">
-        <link rel="stylesheet" href="./stylesheet/style.css">
+        <link rel="stylesheet" href="./stylesheet/style.resh.css">
+        <link rel="stylesheet" href="./stylesheet/style.kk.css">
 
     </head>
     <body>
 
-        <div class="head">
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 m6 white-text center" style="padding: 50px;"><h4>NIT KURUKSHETRA</h4><h6>INSTITUTION OF NATIONAL IMPORTANCE</h6></div>
-                    <div class="col s12 m6 center"><img src="./images/NIT.png" style="max-height:200px;"/></div>
+        <header>
+          <div class="head">
+              <div class="container">
+                  <div class="row">
+                      <div class="col s12 m6 white-text center" style="padding: 50px;"><h4 style="font-size:4.28rem;">NIT KURUKSHETRA</h4><h6 style="font-size:2.15rem;">INSTITUTION OF NATIONAL IMPORTANCE</h6></div>
+                      <div class="col s12 m6 center"><img src="./images/NIT.png" style="max-height:200px;"/></div>
+                  </div>
+              </div>
+          </div>
+
+          <!--        navigation bar started   -->
+
+          <nav class="navbar">
+            <div class="nav-wrapper">
+              <a href="#!" class="brand-logo deep-purple-text text-darken-4" style="font-size:50px;">NIT</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger deep-purple-text text-darken-4 hide-on-large-only"><i class="material-icons" style="font-size:40px">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+
+                <li>
+                  <a href="#" data-target="slide-about" class="deep-purple-text text-darken-4 sidenav-trigger" style="font-size:25px">ABOUT</a>
+                </li>
+
+                <li>
+                  <a href="#" data-target="slide-academic" class="deep-purple-text text-darken-4 sidenav-trigger" style="font-size:25px">ACADEMIC</a>
+                </li>
+
+                <li>
+                  <a href="#" data-target="slide-account" class="deep-purple-text text-darken-4 sidenav-trigger" style="font-size:25px">ACCOUNT</a>
+                </li>
+
+                <li>
+                  <a href="#" data-target="slide-research" class=" deep-purple-text text-darken-4 sidenav-trigger" style="font-size:25px">RESEARCH</a>
+                </li>
+
+                <li>
+                  <a href="#" data-target="slide-student" class=" deep-purple-text text-darken-4 sidenav-trigger" style="font-size:25px">STUDENT</a>
+                </li>
+
+              </ul>
+            </div>
+          </nav>
+
+          <ul class="sidenav" id="mobile-demo">
+            <li>
+              <a href="#" data-target="slide-about" class="deep-purple-text text-darken-4 sidenav-trigger">ABOUT</a>
+            </li>
+
+            <li>
+              <a href="#" data-target="slide-academic" class="deep-purple-text text-darken-4 sidenav-trigger">ACADEMIC</a>
+            </li>
+
+            <li>
+              <a href="#" data-target="slide-account" class="deep-purple-text text-darken-4 sidenav-trigger">ACCOUNT</a>
+            </li>
+
+            <li>
+              <a href="#" data-target="slide-research" class=" deep-purple-text text-darken-4 sidenav-trigger">RESEARCH</a>
+            </li>
+
+            <li>
+              <a href="#" data-target="slide-student" class=" deep-purple-text text-darken-4 sidenav-trigger">STUDENT</a>
+            </li>
+          </ul>
+
+          <!-- SLIDERS START HERE -->
+
+          <ul id="slide-about" class="sidenav">
+            <!-- <li><a class="sidenav-close" href="#!">arrow_back</a></li> -->
+            <li>
+              <div class="user-view">
+                <div class="background">
+                  <img src="./images/back.jpg">
+                </div>
+                <a class="sidenav-close" href="#!"><i class="material-icons white-text">arrow_back</i></a>
+                <a href="#user"><img class="circle" src="./images/volley.jpeg"></a>
+                <a href="#name"><span class="white-text name">ABOUT</span></a>
+              </div>
+            </li>
+            <li><a class="waves-effect" href="#!">First Link</a></li>
+            <li><a class="waves-effect" href="#!">Second Link</a></li>
+            <li><a class="waves-effect" href="#!">Third</a></li>
+          </ul>
+
+          <ul id="slide-academic" class="sidenav">
+            <li>
+              <div class="user-view">
+                <div class="background">
+                  <img src="./images/back.jpg">
+                </div>
+                <a href="#user"><img class="circle" src="./images/volley.jpeg"></a>
+                <a href="#name"><span class="white-text name">ACADEMIC</span></a>
+              </div>
+            </li>
+            <li><a href="#!">First Link With Icon</a></li>
+            <li><a href="#!">Second Link</a></li>
+            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+          </ul>
+
+          <ul id="slide-account" class="sidenav">
+            <li>
+              <div class="user-view">
+                <div class="background">
+                  <img src="./images/back.jpg">
+                </div>
+                <a href="#user"><img class="circle" src="./images/volley.jpeg"></a>
+                <a href="#name"><span class="white-text name">ACCOUNT</span></a>
+              </div>
+            </li>
+            <li><a href="#!">First Link With Icon</a></li>
+            <li><a href="#!">Second Link</a></li>
+            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+          </ul>
+
+          <ul id="slide-research" class="sidenav">
+            <li>
+              <div class="user-view">
+                <div class="background">
+                  <img src="./images/back.jpg">
+                </div>
+                <a href="#user"><img class="circle" src="./images/volley.jpeg"></a>
+                <a href="#name"><span class="white-text name">RESEARCH</span></a>
+              </div>
+            </li>
+            <li><a href="#!">First Link With Icon</a></li>
+            <li><a href="#!">Second Link</a></li>
+            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+          </ul>
+
+          <ul id="slide-student" class="sidenav">
+            <li>
+              <div class="user-view">
+                <div class="background">
+                  <img src="./images/back.jpg">
+                </div>
+                <a href="#user"><img class="circle" src="./images/volley.jpeg"></a>
+                <a href="#name"><span class="white-text name">STUDENT</span></a>
+              </div>
+            </li>
+            <li><a href="#!">First Link With Icon</a></li>
+            <li><a href="#!">Second Link</a></li>
+            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+          </ul>
+        </header>
+
+        <main>
+
+          <div class="clip_back">
+            <div class="row ">
+                <div class="col s12 pad">
+                  <div class="slider" >
+                    <ul class="slides">
+                        <li>
+                            <img src="images/2.jpg">
+                            <div class="caption right-align">
+                            <h2 class="red-text">
+                                Institute of National Importance
+                            </h2>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/3.jpg">
+                            <div class="caption left-align">
+                                <h2 class="red-text">Feel The Tech</h2>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/4.jpg"> <!-- random image -->
+                            <div class="caption right-align">
+                                <h2 class="red-text">The Colosseum</h2>
+                            </div>
+                        </li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            <div class="row">
+                <div class="col s6">
+                    <div class="card-panel slide-info white-text" >
+                        <span class="card-title " >
+                            <h1>NIT NEWS</h1>
+                        </span>
+                        <p>Stay updated with the latest happenings in NIT KURUKSHETRA</p>
+                    </div>
+                </div>
+                <div class="col s6 ">
+                    <a href="#" class="right slide-more white-text right-align">Click here for more
+                        <i class="material-icons right">keyboard_arrow_right</i></a>
                 </div>
             </div>
-        </div>
 
-        <!--        navigation bar started   -->
-
-        <nav class="navbar">
-          <div class="nav-wrapper">
-            <a href="#!" class="brand-logo deep-purple-text text-darken-4" style="font-size:50px;">NIT</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger deep-purple-text text-darken-4 hide-on-large-only"><i class="material-icons" style="font-size:40px">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-
-              <li>
-                <a href="#" data-target="slide-about" class="deep-purple-text text-darken-4 sidenav-trigger" style="font-size:25px">ABOUT</a>
-              </li>
-
-              <li>
-                <a href="#" data-target="slide-academic" class="deep-purple-text text-darken-4 sidenav-trigger" style="font-size:25px">ACADEMIC</a>
-              </li>
-
-              <li>
-                <a href="#" data-target="slide-account" class="deep-purple-text text-darken-4 sidenav-trigger" style="font-size:25px">ACCOUNT</a>
-              </li>
-
-              <li>
-                <a href="#" data-target="slide-research" class=" deep-purple-text text-darken-4 sidenav-trigger" style="font-size:25px">RESEARCH</a>
-              </li>
-
-              <li>
-                <a href="#" data-target="slide-student" class=" deep-purple-text text-darken-4 sidenav-trigger" style="font-size:25px">STUDENT</a>
-              </li>
-
-            </ul>
           </div>
-        </nav>
 
-        <ul class="sidenav" id="mobile-demo">
-          <li>
-            <a href="#" data-target="slide-about" class="deep-purple-text text-darken-4 sidenav-trigger">ABOUT</a>
-          </li>
-
-          <li>
-            <a href="#" data-target="slide-academic" class="deep-purple-text text-darken-4 sidenav-trigger">ACADEMIC</a>
-          </li>
-
-          <li>
-            <a href="#" data-target="slide-account" class="deep-purple-text text-darken-4 sidenav-trigger">ACCOUNT</a>
-          </li>
-
-          <li>
-            <a href="#" data-target="slide-research" class=" deep-purple-text text-darken-4 sidenav-trigger">RESEARCH</a>
-          </li>
-
-          <li>
-            <a href="#" data-target="slide-student" class=" deep-purple-text text-darken-4 sidenav-trigger">STUDENT</a>
-          </li>
-        </ul>
-
-        <!-- <nav class="nav-extended navbar">
-          <div class="nav-wrapper">
-            <a href="#" class="brand-logo center deep-purple-text text-darken-4" style="font-size:40px">NIT</a>
+          <div class="par">
+            <div class="parallax-container">
+              <div class="parallax"><img src="images/ravi.jpg" class="responsive-img"/></div>
+            </div>
           </div>
-          <div class="nav-content">
-            <ul class="tabs tabs-transparent tabs-fixed-width ">
+
+          <div class="events">
+              <div class="info-panel-top center white-text">
+                  <h1>UPCOMING EVENTS AT NIT KURUKSHETRA</h1>
+                  <i class="material-icons" style="font-size:10rem; position:absolute; top:-15rem; right:5rem;">event_note</i>
+              </div>
+              <div class="row">
+                  <div class="col s6 m6 l3 events_col">
+                      <div class="card events_tile ">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/dance.jpg">
+                                <a href="#" class="date btn-floating halfway-fab red left disabled btn-large ">APR 20</a>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">PERFORMANCE<i class="material-icons right">more_vert</i></span>
+
+                                  <p><a href="#" class="more">View Details</a></p>
+                              </div>
+                              <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">PERFORMANCE<i class="material-icons right">close</i></span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                              </div>
+                      </div>
+                  </div>
+                  <div class="col s6 m6 l3 events_col">
+                          <div class="card events_tile">
+                                  <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="images/enterprenuer.jpg">
+                                    <a href="#" class="date btn-floating halfway-fab red left disabled btn-large ">JUN 20</a>
+                                  </div>
+                                  <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">SEMINAR<i class="material-icons right">more_vert</i></span>
+                                    <p><a href="#" class="more">View Details</a></p>
+                                  </div>
+                                  <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">SEMINAR<i class="material-icons right">close</i></span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                  </div>
+                                </div>
+                  </div>
+                  <div class="col s6 m6 l3 events_col">
+                          <div class="card events_tile ">
+                                  <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="images/artposter.jpg">
+                                    <a href="#" class="date btn-floating halfway-fab red left disabled btn-large ">JUL 20</a>
+                                  </div>
+                                  <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">ART WORKSHOP<i class="material-icons right">more_vert</i></span>
+                                    <p><a href="#" class="more">View Details</a></p>
+                                  </div>
+                                  <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">ART WORKSHOP<i class="material-icons right">close</i></span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                  </div>
+                                </div>
+                  </div>
+                  <div class="col s6 m6 l3 events_col">
+                          <div class="card events_tile ">
+                                  <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="images/weekend.jpg">
+                                    <a href="#" class="date btn-floating halfway-fab red left disabled btn-large ">AUG 20</a>
+                                  </div>
+                                  <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">COLLEGE<i class="material-icons right">more_vert</i></span>
+                                    <p><a href="#" class="more">View Details</a></p>
+                                  </div>
+                                  <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">COLLEGE<i class="material-icons right">close</i></span>
+                                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                  </div>
+                                </div>
+                  </div>
+              </div>
+              <div class="info-panel-bottom center white-text">
+                  <a href="#!" class="btn waves-effect waves-light" style="background-color:transparent; height:auto; padding:1rem;">
+                      <h1>CHECK OUT ALL EVENTS
+                      <i class="material-icons" style="font-size:3rem">keyboard_arrow_right</i></h1>
+                  </a>
 
 
 
-            </ul>
+              </div>
           </div>
-        </nav> -->
 
-  <!-- SLIDERS START HERE -->
+          <div class="notifications">
+              <h1 class=" main-head">ACTIVITY</h1>
+              <img src="images/NIT.png" class="responsive-img nit-logo-small" style="position:absolute;right:2rem;top:-14rem;"/>
+              <div class="row">
+                  <div class="col s12 m12 l7 notifications_student">
+                      <div class="card">
+                              <div clas="card-content">
+                              <a href="#" class="notif_more btn-floating halfway-fab red right z-depth-4 btn-large "style="top:92%">MORE</a>
+                              <div class="card-title center"><h1>STUDENT CORNER/ NOTIFICATIONS</h1></div>
 
-        <ul id="slide-about" class="sidenav">
-          <li>
-            <div class="user-view">
-              <div class="background">
-                <img src="./images/back.jpg">
+                          </div>
+                          <ul  class="tabs tabs-fixed-width">
+                                  <li class="tab "><a class="active" href="#stud-swipe-1">ALL</a></li>
+                                  <li class="tab "><a href="#stud-swipe-2">B.TECH</a></li>
+                                  <li class="tab "><a href="#stud-swipe-3">M.TECH</a></li>
+                                  <li class="tab "><a href="#stud-swipe-4">MCA</a></li>
+                                  <li class="tab "><a href="#stud-swipe-5">MBA</a></li>
+                                  <li class="tab "><a href="#stud-swipe-6">Phd</a></li>
+                              </ul>
+                          <div id="stud-swipe-1" class="notif col s12 blue">ALL</div>
+                          <div id="stud-swipe-2" class="notif col s12 red">B.TECH</div>
+                          <div id="stud-swipe-3" class="notif col s12 green">M.TECH</div>
+                          <div id="stud-swipe-4" class="notif col s12 yellow">MCA</div>
+                          <div id="stud-swipe-5" class="notif col s12 orange">MBA</div>
+                          <div id="stud-swipe-6" class="notif col s12 pink">Phd</div>
+
+                          </div>
+                      </div>
+
+              <div class="col s12 m12 l5 notifications_tenders">
+                  <div class="card">
+                          <div clas="card-content">
+                              <a href="#" class="notif_more btn-floating halfway-fab red right z-depth-4 btn-large" style="top:92%">more</a>
+                              <div class="card-title center"><h1>TENDERS/ RECRUITMENTS</h1></div>
+                          </div>
+                          <ul  class="tabs tabs-fixed-width">
+                                  <li class="tab "><a class="active" href="#tend-swipe-1">TENDERS</a></li>
+                                  <li class="tab "><a href="#tend-swipe-2">RECRUITMENTS</a></li>
+
+                              </ul>
+                          <div id="tend-swipe-1" class="notif col s12 blue">tenders</div>
+                          <div id="tend-swipe-2" class="notif col s12 red">recruitments</div>
+                          </div>
+                      </div>
+                  </div>
               </div>
-              <a href="#user"><img class="circle" src="./images/volley.jpeg"></a>
-              <a href="#name"><span class="white-text name">ABOUT</span></a>
-            </div>
-          </li>
-          <li><a class="waves-effect" href="#!">First Link</a></li>
-          <li><a class="waves-effect" href="#!">Second Link</a></li>
-          <li><a class="waves-effect" href="#!">Third</a></li>
-        </ul>
 
-        <ul id="slide-academic" class="sidenav">
-          <li>
-            <div class="user-view">
-              <div class="background">
-                <img src="./images/back.jpg">
+          <div class="clubs">
+              <div class="club-banner">
+                  <h1>CLUBS AND FESTS<i class="material-icons" style="font-size:4rem">send</i></h1>
+                  <p class="flow-text">Clubs, geared towards discovering and nuturing talents, provide
+                      for hollistic development of students. Fests help showcase the same.</br>
+                      Give yourself the opportunity to discover and learn new skills
+                  </p>
               </div>
-              <a href="#user"><img class="circle" src="./images/volley.jpeg"></a>
-              <a href="#name"><span class="white-text name">ACADEMIC</span></a>
-            </div>
-          </li>
-          <li><a href="#!">First Link With Icon</a></li>
-          <li><a href="#!">Second Link</a></li>
-          <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-        </ul>
+              <div class="row">
+                  <div class="col s12 m12 l12 club_column">
+                      <ul class="club_contain">
+                          <li>
+                              <div class="card">
+                                  <div class="card-image">
+                                    <img src="images/sac.jpg">
+                                    <span class="title">S.A.C.</span>
+                                  </div>
 
-        <ul id="slide-account" class="sidenav">
-          <li>
-            <div class="user-view">
-              <div class="background">
-                <img src="./images/back.jpg">
+                                  <div class="card-action">
+                                    <a href="#!" class="right">GO TO SITE</a>
+                                  </div>
+                                </div>
+                          </li>
+                          <li>
+                              <div class="card">
+                                  <div class="card-image">
+                                    <img src="images/volley.jpeg">
+                                    <span class="title">NIT SPORTS</span>
+                                  </div>
+
+                                  <div class="card-action">
+                                    <a href="#!" class="right">GO TO SITE</a>
+                                  </div>
+                                </div>
+                          </li>
+                          <li>
+                              <div class="card">
+                                  <div class="card-image">
+                                    <img src="images/ak.jpeg">
+                                    <span class="title">AUTOKRITI</span>
+                                  </div>
+
+                                  <div class="card-action">
+                                    <a href="#!" class="right">GO TO SITE</a>
+                                  </div>
+                                </div>
+                          </li>
+                          <li>
+                              <div class="card">
+                                  <div class="card-image">
+                                    <img src="images/tech.jpg">
+                                    <span class="title">TECHSPARDHA</span>
+                                  </div>
+
+                                  <div class="card-action">
+                                    <a href="#!" class="right">GO TO SITE</a>
+                                  </div>
+                                </div>
+                          </li>
+                          <li>
+                              <div class="card">
+                                  <div class="card-image">
+                                    <img src="images/conf.jpg">
+                                    <span class="title">CONFLUENCE</span>
+                                  </div>
+
+                                  <div class="card-action">
+                                    <a href="#!" class="right">GO TO SITE</a>
+                                  </div>
+                                </div>
+                          </li>
+
+
+
+
+                      </ul>
+                  </div>
               </div>
-              <a href="#user"><img class="circle" src="./images/volley.jpeg"></a>
-              <a href="#name"><span class="white-text name">ACCOUNT</span></a>
-            </div>
-          </li>
-          <li><a href="#!">First Link With Icon</a></li>
-          <li><a href="#!">Second Link</a></li>
-          <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-        </ul>
+          </div>
 
-        <ul id="slide-research" class="sidenav">
-          <li>
-            <div class="user-view">
-              <div class="background">
-                <img src="./images/back.jpg">
+          <div class="gallery">
+              <div class="row">
+                  <div class="col s12 l12">
+                      <div class="gallery_view materialboxed">
+                      <div class="carousel carousel_img" style="height:50rem">
+                          <a class="carousel-item" href="#one!"style="height:50rem;width:100%" ><img src="images/nittree.jpg" style="height:100%;width:100%"></a>
+                          <a class="carousel-item" href="#two!"style="height:50rem;width:100%"><img src="images/ravi.jpg" style="height:100%;width:100%"></a>
+                          <a class="carousel-item" href="#three!" style="height:100%;width:100%"><img src="images/v2.jpg" style="height:100%;width:100%"></a>
+                          <a class="carousel-item" href="#four!" style="height:100%;width:100%"><img src="images/v3.jpg" style="height:100%;width:100%"></a>
+                          <a class="carousel-item" href="#five!" style="height:100%;width:100%"><img src="images/3.jpg" style="height:100%;width:100%"></a>
+                    </div>
+                    <a href="#!" class="btn gallery_close">VIEW GALLERY</a>
+                      </div>
+                  </div>
               </div>
-              <a href="#user"><img class="circle" src="./images/volley.jpeg"></a>
-              <a href="#name"><span class="white-text name">RESEARCH</span></a>
-            </div>
-          </li>
-          <li><a href="#!">First Link With Icon</a></li>
-          <li><a href="#!">Second Link</a></li>
-          <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-        </ul>
+          </div>
 
-        <ul id="slide-student" class="sidenav">
-          <li>
-            <div class="user-view">
-              <div class="background">
-                <img src="./images/back.jpg">
-              </div>
-              <a href="#user"><img class="circle" src="./images/volley.jpeg"></a>
-              <a href="#name"><span class="white-text name">STUDENT</span></a>
-            </div>
-          </li>
-          <li><a href="#!">First Link With Icon</a></li>
-          <li><a href="#!">Second Link</a></li>
-          <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-        </ul>
-
-<!-- SLIDERS ENDED HERE -->
-
-<!--        parallax started      -->
-
-<!--        first image of parallax effect     -->
-
-        <div class="parallax-container">
-            <div class="parallax"><img src="./images/3.jpg"/></div>
-        </div>
-
-<!--        div container between images started here    -->
-
-
-        <div class="section slant" style="height:900px;">
-            <div class="row container white-text">
-                <div class="col s12">
-                    <h2>NIT Kurukshetra</h2>
-                </div>
-                <div class="col s12">
-                    <h5>INSTITUTE OF NATIONAL IMPORTANCE</h5>
-                </div>
-            </div>
-
-<!--            chips started here     -->
-
-            <div class="chip">
-                <img src="./images/tech.jpg" alt="Contact Person">
-                <a href="#">Techspardha 2018</a>
-            </div>
-
-            <div class="chip">
-                <img src="./images/conf.jpg" alt="Contact Person">
-                <a href="#">Confluence 2018</a>
-            </div>
-
-            <div class="chip">
-                <img src="./images/volley.jpeg" alt="Contact Person">
-                <a href="#"> Inter NIT volleyball Tournament 2018</a>
-            </div>
-
-            <div class="chip">
-                <img src="./images/ak.jpeg" alt="Contact Person">
-                <a href="#"> Autokriti</a>
-            </div>
-
-            <div class="chip">
-                <img src="./images/altius1.jpg">
-                <a href="#"> Altius </a>
-            </div>
-
-<!--            chips ended here but slider of images started here    -->
-
-            <div class="slider" >
-                <ul class="slides">
-                    <li>
-                        <img src="./images/ravi.jpg">
-                        <div class="caption right-align">
-                        <h2 class="red-text">
-                            Institute of National Importance
-                        </h2>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./images/altius.jpg">
-                        <div class="caption left-align">
-                            <h2 class="red-text">Feel The Tech</h2>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./images/v2.jpg"> <!-- random image -->
-                        <div class="caption right-align">
-                            <h2 class="red-text">The Colosseum</h2>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./images/nationalinstituteoftechnologykurukshetra.JPG">
-                        <div class="caption center-align">
-                            <h2 class="red-text">Coming Soon...</h2>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-<!--                 slider ended            -->
-       </div>
-
-<!--       second image for parallax     -->
-
-        <div class="parallax-container">
-            <div class="parallax"><img src="./images/2.jpg"></div>
-        </div>
-
-<!--   parallax ended but footer started    -->
+        </main>
 
         <footer class="page-footer">
           <div>
@@ -294,22 +478,22 @@
                 <ul class="footer-icons">
                   <li>
                     <a class="waves-effect waves-light">
-                      <i class="fa fa-facebook-square blue-text small"></i>
+                      <i class="fa fa-facebook-square blue-text medium"></i>
                     </a>
                   </li>
                   <li>
                     <a class="waves-effect waves-light">
-                      <i class="fa fa-twitter blue-text small"></i>
+                      <i class="fa fa-twitter blue-text medium"></i>
                     </a>
                   </li>
                   <li>
                     <a class="waves-effect waves-light">
-                      <i class="fa fa-youtube blue-text small"></i>
+                      <i class="fa fa-youtube blue-text medium"></i>
                     </a>
                   </li>
                   <li>
                     <a class="waves-effect waves-light">
-                      <i class="fa fa-envelope-o blue-text small"></i>
+                      <i class="fa fa-envelope-o blue-text medium"></i>
                     </a>
                   </li>
                 </ul>
@@ -317,8 +501,8 @@
             </div>
           </div>
           <div class="footer-copyright">
-            <div class="container">
-            ©2018 Copyright War-Turtle
+            <div class="container" sytle="font-size:5rem;">
+              ©2018 Copyright War-Turtle
             </div>
           </div>
         </footer>
@@ -326,7 +510,8 @@
 
         <script src="./javascript/jquery-3.2.1.min.js"></script>
         <script src="./javascript/materialize.min.js"></script>
-        <script src="./javascript/main.js"></script>
+        <script src="./javascript/main.kk.js"></script>
+        <script src="javascript/main.resh.js"></script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkKhXe8I9UE1MbCtTspQ9eCO6SABx7SRc&callback=initMap"></script>
 
         <!-- <script src="./javascript/nav_bar.js"></script> -->
