@@ -1,19 +1,25 @@
 $(document).ready(function(){
   $('.parallax').parallax();
   $('.slider').slider();
-
-  // $('.tabs').tabs();
-
   $('.sidenav').sidenav();
   $('.collapsible').collapsible();
 
   $('.dropdown-trigger').dropdown({
-    alignment: 'left',
     constrainWidth: false,
     coverTrigger: false,
     hover: false
   });
 
+
+  var offsetTop = $('.navbar').offset().top;
+
+  $(window).scroll(function(){
+    if($(window).scrollTop() > offsetTop){
+      $('.navbar').addClass('nav-fixed');
+    } else {
+      $('.navbar').removeClass('nav-fixed');
+    }
+  });
 });
 
 // rendering google maps
@@ -29,25 +35,3 @@ function initMap() {
     map: map
   });
 }
-
-//            own javascript
-
-var navbar = document.getElementsByClassName("navbar")[0];
-var go = navbar.offsetTop;
-
-function scroller() {
-    var ypos = window.pageYOffset;
-    if(ypos >= go)
-        {
-            // navbar.style.background="#c8e6c9a";
-            navbar.style.position="fixed";
-            navbar.style.top="0";
-        }
-    else
-        {
-            // navbar.style.background="#fffa";
-            navbar.style.position="absolute";
-            navbar.style.top=go+"px";
-        }
-}
-addEventListener("scroll",scroller);
