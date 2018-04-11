@@ -20,6 +20,44 @@ $(document).ready(function(){
       $('.navbar').removeClass('nav-fixed');
     }
   });
+
+  function slidingDropDown(element){
+    var id = element.id;
+
+    if($('#'+id).css('display') == 'block'){
+      $('#'+id).slideUp(500);
+      return;
+    }
+
+    $('.submenu-container').map(function(ele){
+      var e = $('.submenu-container')[ele];
+
+
+
+      if(e.id == id){
+        $('#'+id).slideDown(500);
+      } else {
+        $('#'+e.id).slideUp(500);
+      }
+
+    });
+
+
+    // console.log(document.querySelectorAll('.submenu-container'));
+    // $('.submenu-container').slideUp(500,function(){
+    //   console.log('kartik');
+    //   $('#'+id).slideDown(500);
+    // });
+    // if($('.submenu-container').css)
+    // console.log($('.submenu-container'));
+    // $('.submenu-container').map(function(ele){
+    //   console.log($('.submenu-container')[ele]);
+    // });
+  }
+
+  $('.navbar .nav-wrapper ul li').click(function(e){
+    slidingDropDown(e.target.nextElementSibling);
+  });
 });
 
 // rendering google maps

@@ -1,8 +1,3 @@
-*
-{
-    margin:0;
-    padding: 0;
-}
 .head
 {
     width: 100%;
@@ -25,22 +20,33 @@
   top: 0;
 }
 
-.dropdown-content {
-  margin: 0;
-  display: none;
-  min-width: 300px;
-  max-height: auto;
-	margin-left: -1px;
-  overflow: hidden;
-  opacity: 0;
-  position: absolute;
-  white-space: nowrap;
-  z-index: 1;
-  will-change: width, height;
+.submenu-container{
+    width: 100%;
+    position: absolute;
+    display: none;
+    left:0;
+    background: rgba(255,255,255,0.8);
+    padding: 1rem;
+    border-top: 2px black solid;
 }
 
-ul.dropdown-content>li{
-  font-size: 30px;
+table{
+  /* width:90%;
+  margin:auto; */
+}
+
+table tbody tr td a{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.image-container img{
+  /* display: flex-block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  margin: auto;
+  padding-top:30px
 }
 
 footer
