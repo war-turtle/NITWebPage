@@ -3,18 +3,8 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var myObj = JSON.parse(this.responseText);
-        console.log("First Function", myObj);
         var menu = '';
 
-        for(i=0;i<myObj.heading.length;i++)
-        {
-            console.log(myObj.heading[i].box_index, myObj.heading[i].box_name,myObj.heading[i].box_image);
-        }
-        for(i=0;i<myObj.sub_menu.length;i++)
-        {
-            console.log(myObj.sub_menu[i].box_index, myObj.sub_menu[i].item_name, myObj.sub_menu[i].item_link);
-//            and so on you can list any property of myObj
-        }
         //Navigation Bar computer
         for(i=0; i<myObj.heading.length; i++)
         {
